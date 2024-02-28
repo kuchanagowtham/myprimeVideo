@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.thumbnail {
+  height: 100px;
+  width: 150px;
+}
+
+.slider-container {
+  background-color: blue;
+  padding: 40px;
+}
+
+.video-player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.media {
+  margin-top: 12px;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-bottom: 48px;
+}
+.close-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  align-self: flex-end;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.thumbnail-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 750px;
+  height: 460px;
+  border-radius: 16px;
+}
